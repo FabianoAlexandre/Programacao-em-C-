@@ -5,7 +5,7 @@
 
 int main(void){
  
-  float f = 1;//C aceita expressões matematicas como 3e2 = 3*10^2 = 300
+  float f = 3e2;//C aceita expressões matematicas como 3e2 = 300
   double d = 1;  
   long double ld = 1;
 
@@ -15,7 +15,7 @@ int main(void){
   
   printf("O tamanho de ld (long double): %zu bytes / %zu bits\n", sizeof ld, sizeof ld * 8);
 
-  printf("Valor de ld: %.2f\n", f);//%.2f indica a quantidade de casas decimais, (2), após a virgula.
+  printf("Valor de f: %.2f\n", f);//%.2f indica a quantidade de casas decimais, (2), após a virgula.
 
   return 0;
 }
